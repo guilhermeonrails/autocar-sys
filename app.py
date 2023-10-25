@@ -22,17 +22,15 @@ def sair():
     pass
 
 opcoes = {
-    1:listar_veiculos,
-    2:cadastrar_novo_veiculo,
-    3:salvar,
-    4:sair
+    1: listar_veiculos,
+    2: cadastrar_novo_veiculo,
+    3: sair
 }
 
 def menu_de_opcoes():
     print('⇾ 1. Listar veículos')
     print('⇾ 2. Cadastrar novo veículo')
-    print('⇾ 3. Salvar veículos')
-    print('⇾ 4. Sair\n')
+    print('⇾ 3. Sair\n')
 
 def escolher_opcao():
     opcao = verifica_se_opcao_e_valida()
