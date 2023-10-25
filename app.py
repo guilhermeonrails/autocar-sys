@@ -56,16 +56,26 @@ def sair():
     os.system('clear')
     print('\nFinalizando a aplicação\n')
 
+def exibir_quantidade_de_carros_cadastrados():
+    lista_de_carros = carregar_dados()
+    os.system('clear')
+    print('Carros cadastrados\n')
+    print(f'Existem {len(lista_de_carros)} cadastrados neste momento.')
+    input('\nPressione enter para voltar ao menu ')
+    main()
+
 opcoes = {
     1: listar_veiculos,
     2: cadastrar_novo_veiculo,
-    3: sair
+    3:exibir_quantidade_de_carros_cadastrados,
+    4: sair
 }
 
 def menu_de_opcoes():
     print('⇾ 1. Listar veículos')
     print('⇾ 2. Cadastrar novo veículo')
-    print('⇾ 3. Sair\n')
+    print('⇾ 3. Quantidade de carros cadastrados')
+    print('⇾ 4. Sair\n')
 
 def escolher_opcao():
     opcao = verifica_se_opcao_e_valida()

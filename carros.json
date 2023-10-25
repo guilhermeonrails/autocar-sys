@@ -1,14 +1,38 @@
 {
     "carro1": {
-        "marca": "Fiat",
-        "modelo": "Uno",
-        "ano": "1998",
-        "preco": 12500.0
+        "marca": "Volkswagen",
+        "modelo": "Gol",
+        "ano": 2022,
+        "preco": 54000.0
     },
     "carro2": {
-        "marca": "Pegeout",
-        "modelo": "206",
-        "ano": "2008",
-        "preco": 26965.0
+        "marca": "Chevrolet",
+        "modelo": "Onix",
+        "ano": 2022,
+        "preco": 60000.0
+    },
+    "carro3": {
+        "marca": "Fiat",
+        "modelo": "Strada",
+        "ano": 2022,
+        "preco": 75000.0
+    },
+    "carro4": {
+        "marca": "Ford",
+        "modelo": "Ka",
+        "ano": 2022,
+        "preco": 55000.0
+    },
+    "carro5": {
+        "marca": "Toyota",
+        "modelo": "Hilux",
+        "ano": 2022,
+        "preco": 160000.0
+    },
+    "carro6": {
+        "marca": "Ferrari",
+        "modelo": "Maranello",
+        "ano": "2014",
+        "preco": 2300000.0
     }
 }
