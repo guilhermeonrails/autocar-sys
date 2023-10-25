@@ -1,0 +1,14 @@
+{
+    "carro1": {
+        "marca": "Fiat",
+        "modelo": "Uno",
+        "ano": "1998",
+        "preco": 12500.0
+    },
+    "carro2": {
+        "marca": "Pegeout",
+        "modelo": "206",
+        "ano": "2008",
+        "preco": 26965.0
+    }
+}
